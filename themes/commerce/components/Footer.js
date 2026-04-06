@@ -200,15 +200,9 @@ const Footer = props => {
               <CopyRightDate />
             </div>
 
-            {/* 技术支持 */}
+            {/* 版权信息 */}
             <div className='text-xs text-light-500 dark:text-gray-700'>
-              Powered by{' '}
-              <a
-                href='https://github.com/tangly1024/NotionNext'
-                className='dark:text-gray-300'>
-                NotionNext {siteConfig('VERSION')}
-              </a>
-              .
+               All Rights Reserved.
             </div>
 
             {/* 站点统计 */}
@@ -227,7 +221,7 @@ const Footer = props => {
           {/* 右边公司名字 */}
           <div className='md:text-right'>
             <h1 className='text-xs pt-4 text-light-400 dark:text-gray-400'>
-              {siteConfig('TITLE')} {siteConfig('BIO')}
+              {siteConfig('TITLE')}
             </h1>
             <h2> {siteConfig('DESCRIPTION')}</h2>
             {/* 可选备案信息 */}
