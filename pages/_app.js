@@ -36,7 +36,6 @@ const MyApp = ({ Component, pageProps }) => {
   const route = useRouter()
   const theme = useMemo(() => {
     return (
-      getQueryParam(route.asPath, 'theme') ||
       pageProps?.NOTION_CONFIG?.THEME ||
       BLOG.THEME
     )
